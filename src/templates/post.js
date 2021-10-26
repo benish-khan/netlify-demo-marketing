@@ -9,7 +9,7 @@ import BlogPostCategories from '../components/BlogPostCategories';
 import BlogPostAuthor from '../components/BlogPostAuthor';
 import BlogPostTags from '../components/BlogPostTags';
 
-// this minimal GraphQL query ensures that when 'gatsby develop' is running,
+// this minimal GraphQLed query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
 export const query = graphql`
   query($url: String) {
